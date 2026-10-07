@@ -1,0 +1,103 @@
+bolita-food-backend/
+├── src/
+│   ├── entry.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── health.py
+│   │   ├── menu.py
+│   │   ├── pedidos.py
+│   │   ├── negocio.py
+│   │   ├── pagos.py
+│   │   └── whatsapp.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── seguridad.py
+│   │   └── errores.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── menu.py
+│   │   ├── pedidos.py
+│   │   ├── negocio.py
+│   │   └── pagos.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── menu.py
+│   │   ├── pedidos.py
+│   │   ├── negocio.py
+│   │   └── pagos.py
+│   ├── repositories/
+│   │   ├── __init__.py
+│   │   ├── catalogo.py
+│   │   ├── pedidos.py
+│   │   └── conversaciones.py
+│   ├── integrations/
+│   │   ├── __init__.py
+│   │   ├── supabase.py
+│   │   └── whatsapp.py
+│   ├── chatbot/
+│   │   ├── __init__.py
+│   │   ├── motor.py
+│   │   ├── estados.py
+│   │   └── respuestas.py
+│   └── jobs/
+│       ├── __init__.py
+│       ├── horarios.py
+│       ├── mensajes_salientes.py
+│       └── recordatorios.py
+├── migrations/
+│   └── ...archivos SQL del proyecto
+├── tests/
+│   ├── test_reglas_pedidos.py
+│   └── test_chatbot.py
+├── .dev.vars
+├── .gitignore
+├── .python-version
+├── AGENTS.md
+├── pyproject.toml
+├── uv.lock
+├── package.json
+├── package-lock.json
+├── wrangler.jsonc
+└── README.md
+
+
+$archivos = @(
+    "src\entry.py",
+    "src\api\__init__.py",
+    "src\api\health.py",
+    "src\api\menu.py",
+    "src\api\pedidos.py",
+    "src\api\negocio.py",
+    "src\api\pagos.py",
+    "src\api\whatsapp.py",
+    "src\core\__init__.py",
+    "src\core\config.py",
+    "src\core\seguridad.py",
+    "src\core\errores.py",
+    "src\schemas\__init__.py",
+    "src\schemas\menu.py",
+    "src\schemas\pedidos.py",
+    "src\schemas\negocio.py",
+    "src\schemas\pagos.py",
+    "src\services\__init__.py",
+    "src\services\menu.py",
+    "src\services\pedidos.py",
+    "src\services\negocio.py",
+    "src\services\pagos.py",
+    "src\repositories\__init__.py",
+    "src\repositories\catalogo.py",
+    "src\repositories\pedidos.py",
+    "src\repositories\conversaciones.py",
+    "src\integrations\__init__.py",
+    "src\integrations\supabase.py",
+    "src\integrations\whatsapp.py",
+    "src\chatbot\__init__.py",
+    "src\chatbot\motor.py",
+    "src\chatbot\estados.py",
+    "src\chatbot\respuestas.py",
+    "src\jobs\__init__.py",
+    "src\jobs\horarios.py",
+    "src\jobs\mensajes_salientes.py",
+    "src\jobs\recordatorios.py"
+)
